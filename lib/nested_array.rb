@@ -36,8 +36,8 @@ end
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
-  [CONVENTIONAL_PRODUCE,ORGANIC_PRODUCE][row][column]
-  assembled_matrix
+  assembled_matrix[row][column]
+  
 end
 
 def matrix_update(matrix, row, column, new_value)
